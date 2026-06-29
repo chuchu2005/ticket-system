@@ -96,7 +96,7 @@ export default function AdminPage() {
         <select
           value={filterStatus}
           onChange={(e) => setFilterStatus(e.target.value)}
-          className="px-4 py-2 border border-slate-300 rounded-lg text-sm bg-white"
+          className="px-4 py-2 border border-slate-300 rounded-lg text-sm bg-white text-slate-800"
         >
           <option value="all">All Status</option>
           <option value="open">Open</option>
@@ -108,7 +108,7 @@ export default function AdminPage() {
         <select
           value={filterPriority}
           onChange={(e) => setFilterPriority(e.target.value)}
-          className="px-4 py-2 border border-slate-300 rounded-lg text-sm bg-white"
+          className="px-4 py-2 border border-slate-300 rounded-lg text-sm bg-white text-slate-800"
         >
           <option value="all">All Priority</option>
           <option value="low">Low</option>
